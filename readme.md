@@ -1,4 +1,4 @@
-# A Laravel Nova tool for Spatie's laravel-permission library
+# A Laravel Nova Field for Mailchimp subscriptions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/riclep/nova-mailchimp-field.svg?style=flat-square)](https://packagist.org/packages/riclep/nova-mailchimp-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/riclep/nova-mailchimp-field.svg?style=flat-square)](https://packagist.org/packages/riclep/nova-mailchimp-field)
