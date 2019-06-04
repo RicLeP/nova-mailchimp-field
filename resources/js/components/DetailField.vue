@@ -10,11 +10,11 @@
 			<template v-if="loaded">
 				<p v-if="mailchimp.member.status === 'subscribed'">
 					You are subscribed to: {{ mailchimp.list.name }}.<br>
-					Edit your profile to change your preferences.
+					Edit your profile to update your preferences.
 				</p>
 				<p v-else>
 					You are not subscribe to: {{ mailchimp.list.name }}.<br>
-					Edit your profile to change your preferences.
+					Edit your profile to update your preferences.
 				</p>
 			</template>
 			<p v-else>
