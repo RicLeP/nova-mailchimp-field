@@ -1,10 +1,19 @@
 {
     "name": "riclep/nova-mailchimp-field",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova field for managing Mailchimp subscriptions.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+		"mailchimp"
     ],
+	"authors": [
+		{
+			"name": "Ric Le Poidevin",
+			"email": "ric@sirric.co.uk",
+			"homepage": "http://sirric.co.uk",
+			"role": "Developer"
+		}
+	],
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
