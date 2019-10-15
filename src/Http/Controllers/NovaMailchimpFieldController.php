@@ -79,7 +79,7 @@ class NovaMailchimpFieldController extends Controller
 
 	public function status(Request $request)
 	{
-		if (Newsletter::unsubscribe($request->get('email_address'))) {
+		if (Newsletter::isSubscribed($request->get('email_address'))) {
 			return response()->json();
 		}
 
